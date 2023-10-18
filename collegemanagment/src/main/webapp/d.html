@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="dbt.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teacher's Dash-Board</title>
+    <style>
+*
+{
+margin: 0;
+padding: 0;
+}
+body{
+    background-image: url(images/mit.jpg);
+    
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+   
+}
+.frame{
+    width: 1650px;
+    height: 850px;
+    background-color: rgba(0, 0, 0, 0.932);
+   justify-content: center;
+    margin-top: 35px;
+
+    
+}
+
+.leftframe{
+    
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 850px;
+    width: 330px;
+    background-color:  rgba(32, 31, 31, 0.774);
+    box-shadow:  5px  rgb(0, 0, 0) ;
+}
+.profile
+{
+   
+    height: 70px;
+    width: 330px;
+    background-color: rgba(7, 7, 7, 0);
+  
+}
+.profile1
+{
+ 
+    height: 70px;
+    width: 330px;
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+.profile:hover
+{
+    
+    height: 70px;
+    width: 330px;
+    background-color: rgb(0, 0, 0);
+  
+}
+
+.a{
+   
+    margin-left: 80px;
+    padding-top: 25px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.a a{
+    color: rgb(173, 170, 170);
+    text-decoration: none;
+}
+.topright{
+    width: 1185px;
+    height: 250px;
+    background-color:  rgb(25, 25, 25);
+    margin-top: -820px;
+    margin-left: 410px;
+    box-shadow: 9px 12px 5px rgba(0, 0, 0, 0.74) ;
+    border-radius: 40px;
+
+}
+.book{
+    height: 250px;
+    opacity: 1;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.dash{
+    font-size: 25px;
+    color: rgba(102, 100, 104, 0.664);
+    margin-left: 230px;
+    margin-top: -24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.welcome{
+    font-size: 33px;
+    color: rgba(102, 100, 104, 0.664);;
+    margin-left: 910px;
+    margin-top: -110px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mitheading{
+    margin-top: -190px;
+    margin-left: 230px;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.664);
+}
+.name1{
+    
+    margin-left: 429px;
+    width: 400px;
+    height: 60px;
+    font-size: 50px;
+   margin-top: -30px;
+    background-color: transparent;
+    color: aqua;
+    outline: 0;
+    border: none;
+}
+.name2{
+    
+    margin-left: 800px;
+    width: 300px;
+    height: 60px;
+    font-size: 50px;
+   margin-top: 5px;
+    background-color: transparent;
+    color: aqua;
+    outline: 0;
+    border: none;
+}
+.leftbottom{
+    height: 509px;
+    width: 770px;
+    
+    margin-top: 34px;
+    margin-left: 410px;
+    box-shadow: 9px 12px 5px rgba(0, 0, 0, 0.74) ;
+    border-radius: 10px;
+    background-color: rgb(25, 25, 25);
+
+}
+.rightmiddle{
+    height: 350px;
+    width: 365px;
+    box-shadow: 9px 12px 5px rgba(0, 0, 0, 0.74) ;
+    border-radius: 10px;
+    background-color:  rgba(32, 32, 32, 0.904);
+    margin-left: 1230px;
+    margin-top: -480px;
+}
+.rightbottom{
+    height: 80px;
+    width: 180px;
+    box-shadow: 9px 12px 5px rgba(0, 0, 0, 0.74) ;
+    border-radius: 10px;
+    background-color: rgb(25, 25, 25);
+    margin-left: 1240px;
+    margin-top: 35px;
+}
+.rightbottom:hover{
+    height: 80px;
+    transition: 0.5s;
+    width: 180px;
+    box-shadow: 9px 12px 5px rgba(0, 0, 0, 0.74) ;
+    border-radius: 10px;
+    background-color:  rgba(8, 95, 1, 0.904);
+    margin-left: 1240px;
+    margin-top: 35px;
+}
+.updatep{
+    height: 65px;
+    width: 130px;
+    font-size: 19px;
+    padding-left: 50px;
+    padding-top: 18px;
+    border-radius: 10px;
+}
+.updatep a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(153, 150, 150);
+}
+.updatep a:hover{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.updatep:hover{
+    height: 65px;
+    width: 130px;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 18px;
+    border-radius: 10px;
+ 
+}
+.rightbottom2{
+    height: 80px;
+    width: 150px;
+    box-shadow: 9px 12px 5px rgba(0, 0, 0, 0.74) ;
+    border-radius: 10px;
+    background-color:  rgb(25, 25, 25);
+    margin-left: 1440px;
+    margin-top: -80px;
+}
+.rightbottom2:hover{
+    height: 80px;
+    width: 150px;
+    box-shadow: 9px 12px 5px rgba(0, 0, 0, 0.74) ;
+    border-radius: 10px;
+    background-color:  rgba(141, 0, 0, 0.904);
+    margin-left: 1440px;
+    margin-top: -80px;
+    border-radius: 10px;
+   
+}
+.logout{
+    color:   rgba(189, 5, 5, 0.904);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    height: 53px;
+    width: 130px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 25px;
+    transition: 0.5s;
+}
+.logout:hover{
+    color:   rgba(255, 255, 255, 0.904);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    height: 53px;
+    width: 130px;
+   
+    border-radius: 10px;
+    padding-left: 21px;
+    padding-top: 26px;
+}
+.details11{
+ color: transparent;
+ font-size: 2px;
+}
+.details1{
+    font-size: 26px;
+  
+    margin-top: 35px;
+    color:   rgba(173, 169, 169, 0.904);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.detailsall{
+    width: 300px;
+    margin-left: 65px;
+}
+.detailsip{
+    width: 200px;
+    margin-left: 300px;
+    margin-top: -463px;
+}
+.details{
+    width: 370px;
+    height: 30px;
+    font-size: 27px;
+    border: transparent;
+    outline: 0;
+    background-color: transparent;
+    color: rgb(174, 179, 179);
+}
+.abform{
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color:   rgba(175, 175, 177, 0.664);;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    font-size: 17px;
+}
+.delete{
+    border: 1px solid white;
+    background-color: transparent;
+    width: 170px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 320px;
+}
+.delete:hover{
+    border: 1px solid rgb(255, 1, 1);
+    background-color: transparent;
+    width: 170px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 320px;
+    
+}
+.delete a{
+   
+    text-decoration: none;
+    color: rgb(168, 166, 166);
+}
+.delete a:hover{
+   
+    text-decoration: none;
+    color: rgb(252, 8, 0);
+}
+.mgif{
+    height: 350px;
+    width: 365px;
+    
+    
+    border-radius: 5px;
+    opacity: 0.3;
+}
+
+    </style>
+</head>
+<body>
+ <form  action="teacherdashboard" method="get">
+    <div class="frame">
+       
+        <div class="leftframe">
+            <div class="abform">
+            
+                <h1>DASH-BOARD</h1>
+                
+            </div>
+                <div class="profile1">
+                    <h1 class="a"><i class="fa-solid fa-user fa-lg" style="color: #02a8a0;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">PROFILE</a></h1>
+                </div>
+                <div class="profile">
+                    <h1 class="a"><i class="fa-solid fa-circle-info fa-lg" style="color: #8f8c8c;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="dbtdetails.html">DETAILS</a></h1>
+                </div>
+                <div class="profile">
+                    <h1 class="a"><i class="fa-solid fa-user-graduate fa-lg" style="color:  #8f8c8c;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="dbtstu.html">STUDENTS</a></h1>
+                </div>
+                <div class="profile">
+                    <h1 class="a"><i class="fa-solid fa-book fa-lg" style="color:  #8f8c8c;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="dbtmotes.html">NOTES</a></h1>
+                </div>
+                <button class="delete"><a href="">DELETE PROFILE</a></button>
+        </div>
+        <div class="topright">
+            <img class="book" src="images/AEyH.gif" alt="">
+            <h1 class="mitheading">M . I . T <br> UNIVERSITY </h1>
+            <input class="name1" type="text"dir="rtl" value=>
+            <h1 class="dash">TEACHERS'S  &nbsp;Dash-Board</h1>
+            <h1 class="welcome">WELCOME</h1>
+            <input class="name2" type="text"dir="rtl" value=>
+            
+           
+        </div>
+        
+        <div class="leftbottom">
+            <div class="detailsall">
+                <h4 class="details11"> NAME : </h4>
+                
+                <h4 class="details1">FIRST NAME :  </h4>
+               
+                <h4 class="details1">LAST NAME : </h4>
+
+                <h4 class="details1">USERNAME : </h4>
+              
+                <h4 class="details1">EMAIL : </h4>
+             
+                <h4 class="details1">PHONE : </h4>
+                
+                <h4 class="details1">DEPARTMENT : </h4>
+               
+                <h4 class="details1">EMPLOYER ID: </h4>
+               
+            </div>
+            <div class="detailsip">
+               
+                <h4 class="details1"><input type="text" class="details" value=></h4>
+               
+                <h4 class="details1"><input type="text" class="details" value=></h4>
+
+                <h4 class="details1"><input type="text" class="details" value=></h4>
+              
+                <h4 class="details1"><input type="text" class="details" value=></h4>
+             
+                <h4 class="details1"><input type="text" class="details" value=></h4>
+                
+                <h4 class="details1"><input type="text" class="details" value=></h4>
+               
+                <h4 class="details1"><input type="text" class="details" value=> </h4>
+               
+            </div>
+        </div>
+        <div class="rightmiddle">
+             <img  class="mgif" src="images/minimalist.gif" alt="">
+        </div>
+        <div class="rightbottom">
+            <h1 class="updatep"><a href="updatep.html">UPDATE PROFILE</a></h1>
+        </div>
+        <div class="rightbottom2">
+            <h1 class="logout">LOGOUT</h1>
+        </div>
+       
+    </div>
+</form>
+</body>
+</html>
+
+
+
+System.out.println(rs.getString("id"));
+    			System.out.println(rs.getString("firstname"));
+    			System.out.println(rs.getString("lastname"));
+    			System.out.println(rs.getString("email"));
+    			System.out.println(rs.getString("phone"));
+    			System.out.println(rs.getString("branch"));
+    			System.out.println(rs.getString("empid"));

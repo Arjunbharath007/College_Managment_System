@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="signupst.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT Signup</title>
+    <style>
+        .bar{
+    height: 100px;
+    width: 1920px;
+    background: #00000046;
+    position: fixed;
+    margin-top: 00px;
+    
+}
+body{
+    background-image: url(images/mit.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 650PX;
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 692px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    
+    margin: 10px 32px;
+    font-size: 16px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul  a{
+ list-style: none;
+ color: rgb(255, 255, 255);
+    font-stretch: expanded;
+    text-decoration: none;
+    ;
+}
+nav ul  a:hover { 
+    list-style: none;
+    color: rgb(255, 255, 255);
+    
+       
+       text-decoration: none;
+   } 
+
+.firstframe{
+    width: 700px;
+    height: 750px;
+    background-color: rgba(0, 0, 0, 0.829);
+    margin-top: 60px;
+    margin-left: 890px;
+    border-radius: 0px;
+   
+}
+.firstframe2{
+    width: 700px;
+    height: 750px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -666px;
+    margin-left: 700px;
+    border-radius: 0px;
+   
+}
+.g{
+    margin-left: -720px;
+}
+.dd{
+    width: 700px;
+    height: 750px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 60px;
+    
+    border-radius: 40px;
+    
+}
+
+.ff{
+    width: 670px;
+    height: 750px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 60px;
+    margin-left: 40px;
+
+}
+
+.valu{
+    margin-top: 0px;
+    margin-left:50px ;  
+}
+.a{
+    margin-top: 10px;
+    height: 35px;
+    width: 250px;
+    background-color: rgba(243, 243, 243, 0.336);
+    border: transparent;
+    border-radius: 5px;
+    outline: 0;
+
+}
+
+.b{
+    margin-left: 20px;
+    height: 35px;
+    width: 270px;
+    background-color: rgba(243, 243, 243, 0.336);
+    border: transparent;
+    border-radius: 5px;
+    outline: 0;
+
+}
+.names{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 7px;
+    margin-left: 50px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+.thirdname{
+    margin-left:275px ;
+    margin-top: -17px;
+}
+.n{
+    margin-top: -10px;
+    margin-left:50px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.details{
+    margin-top: -695px;
+    margin-left: 50px;
+    
+}
+
+.email{
+    margin-top: 20px;
+    margin-left:100px 
+}
+.age{
+    margin-top: -79px;
+    margin-left:477px 
+}
+.gender{
+   
+        margin-top: -75px;
+        margin-left: 420px 
+
+}
+.aggg{
+    outline: 0;
+    height: 35px;
+    width: 167px;
+    background-color: rgba(243, 243, 243, 0.336);
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.genn{
+    height: 35px;
+    width: 223px;
+    outline: 0;
+    background-color: rgba(243, 243, 243, 0.336);
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.em{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.ema{
+    height: 35px;
+    outline: 0;
+    width: 545px;
+    background-color: rgba(243, 243, 243, 0.336);
+    border: transparent;
+    border-radius: 5px;
+}
+::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1; 
+    padding-left: 10px;
+  }
+
+.ph{
+    height: 35px;
+    width: 290px;
+    outline: 0;
+    background-color: rgba(243, 243, 243, 0.336);
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+.ema{
+    margin-top: 10px;
+}
+.pho{
+    margin-top: 15px;
+    margin-left:100px 
+    
+}
+.subb{
+    height: 35px;
+    width: 290px;
+    outline: 0;
+    background-color: rgba(243, 243, 243, 0.336);
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 6px;
+    font-size: 15px;
+}
+.subj{
+    
+    margin-top: 15px;
+    margin-left:100px 
+    
+}
+.password{
+    margin-left: 50px;
+    margin-top: 18px;
+}
+.password2{
+    margin-left: 0px;
+    margin-top: 18px;
+}
+.ab{
+    margin-top: 10px;
+    height: 35px;
+    width: 350px;
+    outline: 0;
+    background-color: rgba(243, 243, 243, 0.336);
+    border: transparent;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;
+   
+}
+.butt{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #ffffff;
+    border: 2px solid;
+    background-color: #ffffff00;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.butt:hover{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #000000;
+    border: 2px solid;
+    transition: 0.3s;
+    outline: 0;
+    background-color: #ffffff48;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ffa{
+    margin-top: -101px;
+    margin-left: 00px;
+
+}
+
+
+.d{
+    margin-top: -590px;
+    height: 500px;
+    margin-left: 10px;
+
+}
+.stud{
+    width: 520px;
+color: #ffffff9d;
+margin-left: -710PX;
+ margin-top: -666PX;  
+ font-size: 46PX; 
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: #000000;
+ height: 670px;
+ padding-left: 146px;
+ padding-top: 80px;
+}
+.sft{
+    margin-top: 40px;
+    font-size: 8px;
+    margin-left: -0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.sft a{
+    text-decoration: none;
+    color: #ffffff65;
+}
+.sft:hover{
+    transition: 0.3s;
+    margin-top: 450px;
+    font-size: 8px;
+    
+    margin-left: -0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    .line{
+        transition: 0.5s;
+        height: 2px;
+        background-color: #ffffff;
+        width: 130px;
+    }
+    
+}
+.sft a:hover{
+    text-decoration: none;
+    color: #1069a5;
+}
+
+    </style>
+</head>
+<body>
+  
+    <div class="bar">
+                
+        <a href="">
+            <img  class=""src="" alt="">
+        </a>
+        <nav>
+        
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BLOG</a></li>
+                
+                <li><a href="signin.html">SIGN-IN</a></li>
+               
+                
+            </ul>
+        
+        </nav>
+            
+               <form action="signup" method="post">
+                    <div class="firstframe">
+                            <div class="dd">
+                                <div class="ff"></div>
+                            </div>
+                        
+                           
+                           
+                 <div class="start">
+                            <form action="signup" method="post" >
+                        <div class="details">
+                                <div class="name">
+                                    <h1 class="n">Full Name</h1>
+                                </div>
+                                <div class="valu">
+                                    <input class="a" type="text" name="firstname">
+                                    <input class="b" type="text" name="lastname">
+                                </div>
+                                <div class="names">
+                                    <div class="firstname">
+                                        <h1>First Name</h1>
+                                    </div>
+                                    <div class="thirdname">
+                                        <h1>Last Name</h1>
+                                    </div>  
+                                </div>  
+                            </div>   
+                            
+                            <div class="email">
+                                <h1 class="em">Email</h1>
+                                <input class="ema" type="text"placeholder="eg-name@gmail.com" name="email" >
+                            </div>
+                            <!-- <div class="age">
+                                <h1 class="em">Age</h1>
+                                <input class="aggg" type="text"name="age" >
+                            </div> -->
+                            
+                            <div class="pho">
+                                <h1 class="em">Phone </h1>
+                                <input class="ph" type="text"placeholder="0123456789" name="phone">
+                                </div>  
+                                <div class="gender">
+                                    <h1 class="em">Branch </h1>
+                                    <input class="genn" type="text" name="branch">
+                                    </div>
+                                    <div class="subj">
+                                        <h1 class="em">Emp ID</h1>
+                                        <input class="subb" type="text" placeholder="Employer id" name="empid">
+                                        </div>  
+                                        <div class="gender">
+                                            <h1 class="em">Username </h1>
+                                            <input class="genn" type="text" name="username">
+                                            
+                                          
+                                            </div>
+                                    <div class="password">
+                                        <div class="name">
+                                            <h1 class="n">Password</h1>
+                                            
+                                        </div>
+                                        <div class="valu1">
+                                            <input class="ab" type="text" name="password">
+                                            
+                                    </div>
+                                    <div class="password2">
+                                        <div class="name">
+                                            <h1 class="n"> Confirm Password</h1>
+                                        
+                                        </div>
+                                        <div class="valu1">
+                                            <input class="ab" type="password" name="confirmpassword">
+                                            
+                                        </div>
+                                    </div>  
+                                    <div class="button">
+                                        <input class="butt" type="submit">
+                                    </div> 
+               
+
+              </form>
+              <div class="g">
+              <img class="d" src="images/book.gif" alt="">
+        </div>
+        <div class="firstfram"></div>
+         
+        <div class="stud">
+            <h1>SIGN-UP</h1>
+            <!-- <div class="sft">
+            <a href="signup.html">
+                <h1>I AM A TEACHER</h1>
+                <div class="line"></div>
+           
+            </a> -->
+        </div>
+        </div>
+        </div>
+       
+
+   
+     </div>
+     
+    
+     
+    </div>
+  
+         
+</body>
+</html>
+       
